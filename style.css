@@ -9,14 +9,14 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
     line-height: 1.6;
     color: #333;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background: linear-gradient(135deg, #f8fabe 0%, #f0e68c 100%);
     min-height: 100vh;
     padding: 20px;
 }
 
 /* ヘッダー */
 header {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 240, 0.95);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -43,7 +43,7 @@ nav ul {
 nav a {
     text-decoration: none;
     color: #fff;
-    background-color: #3498db;
+    background-color: #6a5acd;
     padding: 10px 20px;
     border-radius: 5px;
     transition: all 0.3s ease;
@@ -51,7 +51,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #2980b9;
+    background-color: #5b4cb8;
     transform: translateY(-2px);
 }
 
@@ -66,7 +66,7 @@ main {
 
 /* 見出し */
 h2 {
-    color: #e74c3c;
+    color: #ff6b6b;
     font-size: 2em;
     margin-bottom: 20px;
     border-bottom: 2px solid #e74c3c;
@@ -74,7 +74,7 @@ h2 {
 }
 
 h3 {
-    color: #3498db;
+    color: #4ecdc4;
     font-size: 1.5em;
     margin: 25px 0 15px;
 }
@@ -219,12 +219,13 @@ tr:hover {
 
 /* フッター */
 footer {
-    background-color: rgba(44, 62, 80, 0.9);
-    color: white;
+    background-color: rgba(248, 250, 190, 0.9);
+    color: #333;
     text-align: center;
     padding: 20px;
     border-radius: 10px;
     margin-top: 30px;
+    border-top: 3px solid #e6d884;
 }
 
 footer p {
@@ -261,4 +262,5 @@ footer p {
         display: block;
         overflow-x: auto;
     }
+
 }
